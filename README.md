@@ -1,12 +1,12 @@
 
 # Task Management App
 
-Welcome to the HustleTask repository! This application is built using the MERN (MongoDB, Express, React, Node.js) stack and comes with various functionalities to manage your tasks.
+Welcome to the TaskMan repository! This application is built using the MERN (MongoDB, Express, React, Node.js) stack and comes with various functionalities to manage your tasks.
 
 
 ## Features
 
-*Authentication: Secure user authentication system to manage your tasks.
+*Authentication: Secure user authentication using Two Roles(Admin and User) system to manage your tasks.
 
 *Create Task: Easily create and publish your task with user-friendly interface.
 
@@ -14,7 +14,14 @@ Welcome to the HustleTask repository! This application is built using the MERN (
 
 *Update Task:  update your tasks.
 
-*Pagination Implemented for performance and Smooth User Experience.
+## Technical Decisions
+MERN Stack: Chosen for its popularity and ease of use in building full-stack applications. Each component of the stack has a specific role that contributes to the overall functionality of the app.
+React for Frontend: React was selected for its component-based architecture, which allows for reusable UI components and efficient state management.
+Express for Backend: Express was chosen for its simplicity and flexibility in handling HTTP requests and building RESTful APIs.
+MongoDB for Database: MongoDB was chosen for its scalability and ability to handle large amounts of unstructured data. Mongoose simplifies interactions with MongoDB through its schema-based modeling.
+Component-Based Design: The frontend is designed using reusable components to ensure maintainability and scalability.
+RESTful API: The backend follows REST principles to provide a clear and consistent interface for CRUD operations on tasks.
+Error Handling: Implemented comprehensive error handling on both the frontend and backend to improve user experience and debug issues efficiently.
 
 
 
@@ -24,13 +31,17 @@ Welcome to the HustleTask repository! This application is built using the MERN (
 Clone the project
 
 ```bash
-  git clone https://github.com/iftekher6/HustleTask_CLIENT.git
+  git clone https://github.com/iftekher6/taskman.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd HustleTask_CLIENT
+  cd frondend
+```
+
+```bash
+  cd backend
 ```
 
 Install dependencies
